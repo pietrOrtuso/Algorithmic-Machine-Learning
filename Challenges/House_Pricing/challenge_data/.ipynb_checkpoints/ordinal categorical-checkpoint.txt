@@ -1,0 +1,137 @@
+Ordinal categorical
+
+LotShape:
+	Reg	Regular
+	IR1	Slightly irregular
+	IR2	Moderately Irregular
+	IR3	Irregular
+	
+Utilities:
+	AllPub	All public Utilities (E,G,W,& S)
+    NoSewr	Electricity, Gas, and Water (Septic Tank)
+    NoSeWa	Electricity and Gas Only
+    ELO	    Electricity only
+	
+LandSlope:
+	Gtl	Gentle slope
+    Mod	Moderate Slope
+    Sev	Severe Slope
+	
+ExterQual:
+    Ex	Excellent
+    Gd	Good
+    TA	Average/Typical
+    Fa	Fair
+    Po	Poor
+	
+ExterCond:
+	Ex	Excellent
+    Gd	Good
+    TA	Average/Typical
+    Fa	Fair
+    Po	Poor
+	
+BsmtQual:
+	Ex	Excellent (100+ inches)
+    Gd	Good (90-99 inches)
+    TA	Typical (80-89 inches)
+    Fa	Fair (70-79 inches)
+    Po	Poor (<70 inches)
+    NA	No Basement
+	
+BsmtExposure:
+	Gd	Good Exposure\
+    Av	Average Exposure (split levels or foyers typically score average or above)	\
+    Mn	Mimimum Exposure\
+    No	No Exposure\
+    NA	No Basement
+	
+BsmtFinType1:
+	GLQ	Good Living Quarters
+    ALQ	Average Living Quarters
+    BLQ	Below Average Living Quarters
+    Rec	Average Rec Room
+    LwQ	Low Quality
+    Unf	Unfinshed
+    NA	No Basement
+	
+BsmtFinType2:
+	GLQ	Good Living Quarters
+    ALQ	Average Living Quarters
+    BLQ	Below Average Living Quarters
+    Rec	Average Rec Room
+    LwQ	Low Quality
+    Unf	Unfinshed
+    NA	No Basement
+	
+HeatingQC:
+	Ex	Excellent
+    Gd	Good
+    TA	Average/Typical
+    Fa	Fair
+    Po	Poor
+	
+KitchenQual:
+	Ex	Excellent
+    Gd	Good
+    TA	Typical/Average
+    Fa	Fair
+    Po	Poor
+
+Functional:
+	Typ	 Typical Functionality
+    Min1 Minor Deductions 1
+    Min2 Minor Deductions 2
+    Mod	 Moderate Deductions
+    Maj1 Major Deductions 1
+    Maj2 Major Deductions 2
+    Sev	 Severely Damaged
+    Sal	 Salvage only
+	
+FireplaceQu:
+	Ex	Excellent - Exceptional Masonry Fireplace
+    Gd	Good - Masonry Fireplace in main level
+    TA	Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement
+    Fa	Fair - Prefabricated Fireplace in basement
+    Po	Poor - Ben Franklin Stove
+    NA	No Fireplace
+	
+GarageFinish:
+	Fin	Finished
+    RFn	Rough Finished
+    Unf	Unfinished
+    NA	No Garage	
+	
+GarageQual:
+	Ex	Excellent
+    Gd	Good
+    TA	Typical/Average
+    Fa	Fair
+    Po	Poor
+    NA	No Garage
+	
+
+GarageCond:
+	Ex	Excellent
+    Gd	Good
+    TA	Typical/Average
+    Fa	Fair
+    Po	Poor
+    NA	No Garage
+	
+PoolQC:
+	Ex	Excellent
+    Gd	Good
+    TA	Typical/Average
+    Fa	Fair
+    NA	No Pool
+	
+FencePrivacy:
+	GdPrv	Good Privacy
+    MnPrv	Minimum Privacy
+	NA	No Fence
+	
+FenceWood:
+	GdWo	Good Wood
+    MnWw	Minimum Wood/Wire
+	
